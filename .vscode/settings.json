@@ -4,6 +4,8 @@
         "fortawesome",
         "hdurl",
         "josefin",
-        "webfontloader"
+        "npod",
+        "webfontloader",
+        "webfonts"
     ]
 }
