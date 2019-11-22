@@ -54,14 +54,14 @@ const Copy = styled.span`
 
 color: #6168b3;
 width:100%
-font-family: 'Shadows Into Light', cursive;
+font-family: 'Tomorrow', sans-serif;
 `
 const Footer = styled.footer`
 font-size 150%;
 color: #6168b3;
 width:100%;
 background: black;
-font-family: 'Shadows Into Light', cursive;
+font-family: 'Josefin Sans', sans-serif;
 `
 
 
