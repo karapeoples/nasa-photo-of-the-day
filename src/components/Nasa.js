@@ -9,10 +9,10 @@ const [info, setInfo]=useState([]);
         axios
         .get('https://api.nasa.gov/planetary/apod?api_key=2guqPJypO9JUqsX8FC3TaS6334oaeokT1mao8iLV')
         .then(data => {
-        console.log(data.data);
+        /* console.log(data.data); */
         setInfo(data.data);
     })
-    .catch(error => {console.log('None for You');
+    .catch(error => {console.log('None for You', error);
     
     });
 
@@ -21,10 +21,11 @@ const [info, setInfo]=useState([]);
     return(
 
         <NasaCard 
-         imgUrl = {info.hdurl}
-         title = {info.title}
-         description = {info.explanation}
-         date = {info.date}
+        title = {info.title}
+        date = {info.date}
+        imgUrl = {info.hdurl}
+        description = {info.explanation}
+        copyright={info.copyright}
         />
 
 
