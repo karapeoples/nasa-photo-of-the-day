@@ -79,11 +79,17 @@ const Box = styled.section`
 display: flex;
 width: 98%;
 margin: 2%;
+@media screen and (max-width: 800px){
+    display: block;
+}
 `
 const PhotoDiv = styled.div`
 width: 50%;
-
-
+@media screen and (max-width: 800px){
+    margin: 0 auto;
+    height: 50%;
+    width: 98%;
+}
 `
 const Daily = styled.img`
 width: 100%;
@@ -96,6 +102,11 @@ animation: ${glitch1} 5.5s infinite`
 const TextDiv = styled.div`
 width: 50%;
 margin: 2%;
+@media screen and (max-width: 800px){
+    margin: 0 auto;
+    width: 98%;
+    height: 50%;
+}
 `
 
 const Explain = styled.p`
