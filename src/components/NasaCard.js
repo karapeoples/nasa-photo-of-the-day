@@ -83,17 +83,20 @@ margin: 2%;
 const PhotoDiv = styled.div`
 width: 50%;
 
+
 `
 const Daily = styled.img`
 width: 100%;
 height:100%;
+border-radius: 10%;
 animation: ${glitch1} 5.5s infinite`
 
 
 
 const TextDiv = styled.div`
 width: 50%;
-margin: 2%;`
+margin: 2%;
+`
 
 const Explain = styled.p`
 font-size 225%;
