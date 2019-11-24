@@ -57,117 +57,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
     }`
   
    
- 
-     const glitch2 = keyframes` 
-    0% {
-      transform: none;
-      opacity: 0.25;
-    }
-    7% {
-      transform: translate(-2px, -3px);
-      opacity: 0.5;
-    }
-    10% {
-      transform: none;
-      opacity: 0.25;
-    }
-    27% {
-      transform: none;
-      opacity: 0.25;
-    }
-    30% {
-      transform: translate(-5px, -2px);
-      opacity: 0.5;
-    }
-    35% {
-      transform: none;
-      opacity: 0.25;
-    }
-    52% {
-      transform: none;
-      opacity: 0.25;
-    }
-    55% {
-      transform: translate(-5px, -1px);
-      opacity: 0.5;
-    }
-    50% {
-      transform: none;
-      opacity: 0.25;
-    }
-    72% {
-      transform: none;
-      opacity: 0.25;
-    }
-    75% {
-      transform: translate(-2px, -6px);
-      opacity: 0.5;
-    }
-    80% {
-      transform: none;
-      opacity: 0.25;
-    }
-    100% {
-      transform: none;
-      opacity: 0.25;
-    }`
-   
-  
-  
- 
-    const glitch3= keyframes`
-    0% {
-      transform: none;
-      opacity: 0.25;
-    }
-    7% {
-      transform: translate(2px, 3px);
-      opacity: 0.5;
-    }
-    10% {
-      transform: none;
-      opacity: 0.25;
-    }
-    27% {
-      transform: none;
-      opacity: 0.25;
-    }
-    30% {
-      transform: translate(5px, 2px);
-      opacity: 0.5;
-    }
-    35% {
-      transform: none;
-      opacity: 0.25;
-    }
-    52% {
-      transform: none;
-      opacity: 0.25;
-    }
-    55% {
-      transform: translate(5px, 1px);
-      opacity: 0.5;
-    }
-    50% {
-      transform: none;
-      opacity: 0.25;
-    }
-    72% {
-      transform: none;
-      opacity: 0.25;
-    }
-    75% {
-      transform: translate(2px, 6px);
-      opacity: 0.5;
-    }
-    80% {
-      transform: none;
-      opacity: 0.25;
-    }
-    100% {
-      transform: none;
-      opacity: 0.25;
-    }`
    
 
 
@@ -198,18 +87,9 @@ width: 50%;
 const Daily = styled.img`
 width: 100%;
 height:100%;
-animation: ${glitch1} 2.5s infinite`
+animation: ${glitch1} 5.5s infinite`
 
-const Daily2 = styled.img`
-width: 100%;
-height:100%;
-animation: ${glitch2} 2.5s infinite;
-`
-const Daily3 = styled.img`
-width: 100%;
-height:100%;
-animation: ${glitch3} 2.5s infinite;
-`
+
 
 const TextDiv = styled.div`
 width: 50%;
