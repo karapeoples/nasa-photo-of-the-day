@@ -7,6 +7,7 @@ import { faCopyright  } from '@fortawesome/free-solid-svg-icons'
 // eslint-disable-next-line
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+
 library.add(fab, faCopyright)
 
 function App() {
@@ -20,3 +21,4 @@ function App() {
 }
 
 export default App;
+
