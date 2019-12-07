@@ -38,3 +38,8 @@ const [info, setInfo]=useState([]);
 export default Nasa
 
 
+
+
+
+//gender , culture, aliases, born, died, name, playedBy, titles
+

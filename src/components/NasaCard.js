@@ -2,7 +2,7 @@ import React from 'react';
 import styled, {keyframes}  from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-  const glitch1 = keyframes`
+ /*  const glitch1 = keyframes`
     0% {
       transform: none;
       opacity: 1;
@@ -54,7 +54,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
     100% {
       transform: none;
       opacity: 1;
-    }`
+    }` */
   
    
    
@@ -94,8 +94,8 @@ width: 50%;
 const Daily = styled.img`
 width: 100%;
 height:100%;
-border-radius: 10%;
-animation: ${glitch1} 5.5s infinite`
+border-radius: 10%;`
+/* animation: ${glitch1} 5.5s infinite` */
 
 
 
